@@ -28,7 +28,7 @@ unset($pdo);
 
 <head>
     <meta charset="UTF-8">
-    <title>Liste des événements</title>
+    <title>Liste des fêtes</title>
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -64,7 +64,7 @@ unset($pdo);
                     </a>
                 <?php endforeach; ?>
             <?php else : ?>
-                <p>Aucun événement à afficher.</p>
+                <p>Aucune fête à afficher.</p>
             <?php endif; ?>
         </div>
     </div>
